@@ -7,6 +7,7 @@ nav{
     justify-content: space-between;
     background-color: blueviolet;
     padding: 10px 200px;
+    border-bottom: 4px solid rgba(255, 0, 0, 0.432);
 
 }
 nav ul{
@@ -31,4 +32,39 @@ nav ul li a:hover{
     color: burlywood;
     background-color: black;
     border-radius: 5px;
+}
+/* hero area code start  */
+header{
+    background-image: url(img/-background.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.searchbox-icon-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox-icon-parent i{
+    color: red;
+    background-color: green;
+    font-size: 25px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -10px;
+
+}
+.searchbox-icon-parent input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 5px 20px;
+
 }
