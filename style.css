@@ -68,3 +68,36 @@ header{
     padding: 5px 20px;
 
 }
+/* header section code finished  */
+/* main section code start  */
+main{
+    background-color: maroon;
+}
+.main-section{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+   
+    
+}
+.page-parent{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+
+}
+.vedio{
+    font-size: 25px;
+    color: greenyellow;
+}
+.page{
+    color: gold;
+}
+.page span{
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.469);
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
