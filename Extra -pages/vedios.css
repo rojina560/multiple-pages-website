@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 10px 200px;
+    border-bottom: 4px solid rgba(255, 0, 0, 0.432);
+    position: sticky;
+    top: 0;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+    transition: 0.2s;
+}
+nav div{
+    color: white;
+}
+nav ul li a:hover{
+    color: burlywood;
+    background-color: black;
+    border-radius: 5px;
+}
+
+main{
+    background-color:rgb(35, 2, 2);
+}
+.main-section{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0;
+   
+    
+}
+.page-parent{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+
+}
+.vedio{
+    font-size: 25px;
+    color: greenyellow;
+}
+.page{
+    color: gold;
+}
+.page span{
+    color: wheat;
+    background-color: rgba(0, 0, 0, 0.469);
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+#single-item-parent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap:20px ;
+    margin-top: 50px;
+}
+.single-item{
+    height: 250px;
+    border: 3px solid gray;
+    
+
+
+}
+.single-item:hover img{
+    transform: scale(1.1);
+    border-radius: 20px;
+}
+.single-item img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.single-item div{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    margin-top: 20px;
+}
+#previous-btn-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+#previous-btn-parent a{
+    text-decoration: none;
+    color: rgb(2, 83, 32);
+}
+#previous-btn-parent h3 a{
+    background-color: rgb(166, 100, 13);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+#previous-btn-parent h3 a:hover{
+    background-color:rgb(217, 169, 106) ;
+    
+}
+#previous-btn-parent div a{
+    margin: 0 10px;
+    background-color: aliceblue;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(72, 67, 67);
+}
+#previous-btn-parent div a:first-child{
+    background-color: rgb(6, 57, 6);
+    color: white;
+}
