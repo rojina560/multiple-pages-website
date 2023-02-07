@@ -2,6 +2,39 @@
     padding: 0;
     margin: 0;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 10px 200px;
+    border-bottom: 4px solid rgba(255, 0, 0, 0.432);
+    position: sticky;
+    top: 0;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+    transition: 0.2s;
+}
+nav div{
+    color: white;
+}
+nav ul li a:hover{
+    color: burlywood;
+    background-color: black;
+    border-radius: 5px;
+}
 #article-container{
     width: 1100px;
     margin: 0 auto;
